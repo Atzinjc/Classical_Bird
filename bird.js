@@ -30,7 +30,7 @@ class Bird{
 
 
 function keyReleased(){
-  if (keyCode == 49 && state === 1) {
+  if (keyCode == 87 && state === 1) {
     bird.spd = (bird.spd * 3/4) - 3;
     birdImage = bird2;
     birdFlap1.play();
